@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonEnglish"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:layout_margin="2dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFEB3B"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/buttonArabic"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="العربية"
+        android:layout_margin="2dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFEB3B"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/buttonFrench"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Français"
+        android:layout_margin="2dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFEB3B"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/payroll_img" />
+</LinearLayout>
